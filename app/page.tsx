@@ -2,6 +2,7 @@ import Herosection from "@/app/components/navebar/herosection";
 import FeturedProducts from "@/app/components/feturedProducts";
 import WhyChooseus from "@/app/components/whyChooseus";
 import OurCards from "@/app/components/OurCards";
+import ProductTestimonial from "@/app/components/productTestimonial";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <FeturedProducts/>
     <WhyChooseus/>
     <OurCards/>
+    <ProductTestimonial/>
 </main>
       </>
   );

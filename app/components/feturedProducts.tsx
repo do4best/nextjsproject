@@ -31,7 +31,7 @@ function FeturedProducts() {
             <div key={course.id} className={"flex justify-center"}><BackgroundGradient className={"flex flex-col rounded-[22px] bg-white dark:bg-zinc-900 overflow-hidden h-full max-w-sm"}><div className={"" +
                 "p-4 sm:p-6 flex flex-col items-center text-center flex-grow"}>
                 <p className={"text-log sm:text-xl text-black mt-4 mb-4 dark:text-neutral-200"}>{course.title}</p><p>{course.description}</p>
-                <Link href={`/products/`}>Learn More</Link>
+                <Link href={`/products/`} className={"px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:gb-gray-100 transition duration-200"}>Learn More</Link>
             </div></BackgroundGradient></div>
         ))}</div>
     </div>
