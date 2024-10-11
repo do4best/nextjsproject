@@ -3,6 +3,7 @@ import FeturedProducts from "@/app/components/feturedProducts";
 import WhyChooseus from "@/app/components/whyChooseus";
 import OurCards from "@/app/components/OurCards";
 import ProductTestimonial from "@/app/components/productTestimonial";
+import OurTeams from "@/app/components/ourTeams";
 
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
     <WhyChooseus/>
     <OurCards/>
     <ProductTestimonial/>
+    <OurTeams/>
 </main>
       </>
   );
