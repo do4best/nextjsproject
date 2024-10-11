@@ -1,6 +1,7 @@
 import Herosection from "@/app/components/navebar/herosection";
 import FeturedProducts from "@/app/components/feturedProducts";
 import WhyChooseus from "@/app/components/whyChooseus";
+import OurCards from "@/app/components/OurCards";
 
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
     <Herosection/>
     <FeturedProducts/>
     <WhyChooseus/>
+    <OurCards/>
 </main>
       </>
   );
