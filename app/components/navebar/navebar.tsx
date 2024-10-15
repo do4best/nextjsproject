@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 
 import {cn} from "@/app/utils/utils";
-import {HoveredLink,Menu,MenuItem,ProductItem} from "@/app/ui/navbar-menu";
+import {HoveredLink,Menu,MenuItem} from "@/app/ui/navbar-menu";
 import Link from "next/link";
 
 export function NavbarDemo({className}:{className?:string}) {
@@ -11,7 +11,7 @@ export function NavbarDemo({className}:{className?:string}) {
         <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50",className)}>
 
           <Menu setActive={setActive}>
-              <Link href={"#"}>
+              <Link href={"/"}>
                   <MenuItem setActive={setActive} active={active} item={"Home"}>
 
                   </MenuItem>

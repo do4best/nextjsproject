@@ -4,6 +4,7 @@ import WhyChooseus from "@/app/components/whyChooseus";
 import OurCards from "@/app/components/OurCards";
 import ProductTestimonial from "@/app/components/productTestimonial";
 import OurTeams from "@/app/components/ourTeams";
+import Footer from "@/app/components/footer";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
     <OurCards/>
     <ProductTestimonial/>
     <OurTeams/>
+    <Footer/>
 </main>
       </>
   );
