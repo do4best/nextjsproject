@@ -20,7 +20,9 @@ function Contact() {
                 </div>
 
                 <form className="w-90 mx-auto mt-3 ">
+
                     <div className="mb-5  ">
+
                         <input type="text" id="username-success"
                                className="  bg-green-50 border border-green-500 text-green-900 dark:text-green-400 placeholder-green-700 dark:placeholder-green-500 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-green-500"
                                placeholder="Enter Your Email"/>
@@ -31,6 +33,7 @@ function Contact() {
 
 
                         <div className="flex items-center mt-3 h-5">
+
                             <input id="terms" type="checkbox" value=""
                                    className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800"
                                    required/>
@@ -44,7 +47,7 @@ function Contact() {
                         </button>
 
                     </div>
-                    <Meteors/>
+                    <Meteors number={20}/>
                 </form>
 
             </div>

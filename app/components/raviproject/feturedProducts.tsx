@@ -1,6 +1,6 @@
 'use client'
 import React from 'react';
-import mydata from '../data/data.json'
+import mydata from '../../data/data.json'
 import Link from "next/link";
 import {BackgroundGradient} from "@/app/ui/background-gradient";
 

@@ -1,10 +1,10 @@
-import Herosection from "@/app/components/navebar/herosection";
-import FeturedProducts from "@/app/components/feturedProducts";
-import WhyChooseus from "@/app/components/whyChooseus";
-import OurCards from "@/app/components/OurCards";
-import ProductTestimonial from "@/app/components/productTestimonial";
-import OurTeams from "@/app/components/ourTeams";
-import Footer from "@/app/components/footer";
+import Herosection from "@/app/components/raviproject/navebar/herosection";
+import FeturedProducts from "@/app/components/raviproject/feturedProducts";
+import WhyChooseus from "@/app/components/raviproject/whyChooseus";
+import OurCards from "@/app/components/raviproject/OurCards";
+import ProductTestimonial from "@/app/components/raviproject/productTestimonial";
+import OurTeams from "@/app/components/raviproject/ourTeams";
+import Footer from "@/app/components/raviproject/footer";
 
 
 export default function Home() {
