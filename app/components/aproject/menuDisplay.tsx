@@ -2,10 +2,12 @@
 import React, {useState} from 'react';
 import MenuItems from "@/app/components/aproject/menuItems";
 type User={
-    name:string,
-    onItemClicked:any
+
+    onItemClicked:any,
+    name:any
+
 }
-function MenuDisplay({name,onItemClicked}:User) {
+function MenuDisplay({onItemClicked,name}:User) {
 
     return (
         <>

@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 type Users={
     name:string,
-    onClicked:any
+    onClick:any
 }
-function MenuItems({name,onClicked}:Users) {
+function MenuItems({name,onClick}:Users) {
     const [hovered,setHovered] = useState(false)
     function activate(){
         setHovered(true)
@@ -18,12 +18,10 @@ function MenuItems({name,onClicked}:Users) {
             return "red"
         }
     }
-    const onItemClicked=()=>{
-        onClicked(onClick)
-    }
+
     return (
         <>
-        <div onClick={onItemClicked} onMouseEnter={activate} onMouseLeave={deactivate} style={{background:gebackGroundColor()}}>{name?`There is a user name ${name}`:"Sorry there is no user"}</div>
+        <div onClick={()=>onClick(name)} onMouseEnter={activate} onMouseLeave={deactivate} style={{background:gebackGroundColor()}}>{name?`There is a user name ${name}`:"Sorry there is no user"}</div>
         </>
     );
 }
