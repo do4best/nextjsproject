@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import {NavbarDemo} from "@/app/components/raviproject/navebar/navebar";
+import Providers from "@/app/components/thestore/Providers";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -34,7 +35,9 @@ export default function RootLayout({
 <div className=" relative w-full flex items-center justify-center">
     {/*<NavbarDemo/>*/}
 </div>
+<Providers>
         {children}
+</Providers>
 
       </body>
     </html>

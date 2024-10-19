@@ -3,7 +3,7 @@ import React from 'react'
 import MenuDisplay from "@/app/components/aproject/menuDisplay";
 import AnotherDisplay from "@/app/components/aproject/anotherDisplay";
 import {useState} from "react";
-import {MouseEvent} from "react";
+
 
 
 export default function MainValue() {
