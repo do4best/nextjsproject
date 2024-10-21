@@ -1,8 +1,8 @@
 
 import localFont from "next/font/local";
 import "./globals.css";
-import {QueryClient, QueryClientProvider} from "@tanstack/react-query";
-import Providers from "@/app/components/storeapp/Provider";
+import Navebar from "../app/components/navebarProject/navebar";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -28,9 +28,9 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-    <Providers>
+<Navebar/>
         {children}
-    </Providers>
+
 
       </body>
     </html>
